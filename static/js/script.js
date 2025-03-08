@@ -95,7 +95,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
         .then(response => response.json())
         .then(data => {
             if (data.result === "success") {
-                alert("Message sent successfully!");
+                alert("Message sent successfully! 🎉");
             } else {
                 alert("Error sending message.");
             }

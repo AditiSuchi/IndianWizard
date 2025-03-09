@@ -3,11 +3,12 @@
 document.addEventListener("DOMContentLoaded", function () {
     const hamburger = document.getElementById("hamburger");
     const navLinks = document.getElementById("nav-links");
+    const links = document.querySelectorAll("#nav-links a"); // Select all links inside nav
 
+    // Toggle menu when clicking on hamburger
     hamburger.addEventListener("click", function () {
         navLinks.classList.toggle("active");
         hamburger.classList.toggle("active");
-
 
         if (hamburger.classList.contains("active")) {
             hamburger.innerHTML = '<i class="fas fa-times"></i>';
@@ -15,8 +16,16 @@ document.addEventListener("DOMContentLoaded", function () {
             hamburger.innerHTML = '<i class="fas fa-bars"></i>';
         }
     });
-});
 
+    // Close menu when clicking on a link
+    links.forEach(link => {
+        link.addEventListener("click", function () {
+            navLinks.classList.remove("active");
+            hamburger.classList.remove("active");
+            hamburger.innerHTML = '<i class="fas fa-bars"></i>'; // Reset to menu icon
+        });
+    });
+});
 // Scroll to Top on Click
 const backToTopBtn = document.getElementById("backToTop");
 

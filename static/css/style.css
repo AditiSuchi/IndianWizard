@@ -253,7 +253,7 @@ nav {
         align-items: center;
         transform: translateX(100%);
         transition: transform .4s ease-in-out;
-        z-index: 999
+        z-index: 999;
     }
 
     .nav-links.active {
@@ -274,7 +274,8 @@ nav {
     }
 
     .hamburger.active i {
-        transform: rotate(180deg)
+        transform: rotate(180deg);
+        /* position: fixed; */
     }
 
     .about-container,

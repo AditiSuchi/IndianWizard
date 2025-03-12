@@ -39,7 +39,7 @@ p {
     font-size: 1.1rem; 
 }
 body {
-    background-color: var(--background-color);
+    background-color: #F4F4F4;
     color: var(--black-color) ;
 }
 .cta-button {
@@ -325,7 +325,7 @@ section div {
     justify-content: space-between;
     gap: 20px;
     padding: 50px;
-    background: #f9f9f9;
+    background: #fff;
     border-radius: 10px;
     position: relative;
     flex-wrap: wrap;

@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
 // Scroll to Top on Click
 const backToTopBtn = document.getElementById("backToTop");
 
@@ -110,4 +112,8 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
             }
         })
         .catch(error => alert("An error occurred: " + error));
+
+    // Clear form after submission
+    this.reset();
 });
+

@@ -6,6 +6,17 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/service')
+def service():
+    return render_template('service.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 # Serve sitemap.xml
 @app.route("/sitemap.xml")

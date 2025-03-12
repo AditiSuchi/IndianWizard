@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Indian Wizard - IT service company specializing in Web Development, Data Analysis, and Data Science. Learn more about our mission and expertise.">
+    <meta name="keywords"
+        content="Indian Wizard, IT Services, Web Development, Data Science, Data Analysis, Software Solutions">
+    <meta name="author" content="Indian Wizard">
+    <meta property="og:title" content="About Us - Indian Wizard">
+    <meta property="og:description"
+        content="Indian Wizard is an IT service company offering top-notch Web Development, Data Science, and Analytics solutions.">
+    <meta property="og:image" content="https://www.indianwizard.com/assets/brand-logo.png">
+    <meta property="og:url" content="https://www.indianwizard.com/about">
+    <meta name="robots" content="index, follow">
+    <meta name="twitter:card" content="summary_large_image">
+    <script defer src="script.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Indian Wizard",
+      "url": "https://www.indianwizard.tech",
+      "logo": "https://www.indianwizard.com/../static/image/Logo.png",
+      "description": "Indian Wizard is an IT service company specializing in Web Development, Data Analysis, and Data Science.",
+      "contactPoint": {
+        "@type": "Bharti Nikiten Bhopal MP, India",
+        "telephone": "+91-6203949100",
+        "contactType": "customer service"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="../static/css/service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>IndianWizard</title>
+    <link rel="website icon" type="png" href="../static/image/Logo.png">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../static/image/Logo.png" alt="Brand Logo">
+            </div>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('service') }}">Services</a></li>
+                <li><a href="{{ url_for('home') }}#our-features">Features</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="Contact_Us cta-button">Contact Us</a>
+        </nav>
+    </header>
+
+
+
+
+
+    <section class="services">
+        <div class="ourServices">
+            <h2 class="typing-text">Service and Expertise</h2>
+
+
+        </div>
+
+        <div class="service">
+            <div class="service-image">
+                <img src="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg"
+                    alt="Web Development">
+            </div>
+            <div class="service-content">
+                <h3 class="typing-text">Web Development</h3>
+                <p>Web development is the process of creating and maintaining websites and web applications,
+                    encompassing both front-end and back-end development. Front-end development focuses on the user
+                    interface (UI) and user experience (UX) using technologies like HTML, CSS, and JavaScript, along
+                    with frameworks such as React and Tailwind CSS. Back-end development handles server-side logic,
+                    databases, and authentication, utilizing programming languages like Python, JavaScript (Node.js),
+                    and PHP, with databases such as MySQL and MongoDB. Full-stack development combines both front-end
+                    and back-end skills to build complete web solutions. Developers also use tools like Git for version
+                    control, npm for package management, and cloud platforms like AWS and Netlify for deployment.</p>
+            </div>
+        </div>
+
+        <div class="service reverse">
+            <div class="service-image">
+                <img src="https://cdn.codence.com/wp-content/uploads/2023/11/data-visualization-trends-1.jpg"
+                    alt="Data Analysis">
+            </div>
+            <div class="service-content">
+                <h3 class="typing-text">Data Analysis</h3>
+                <p>Data analysis is the process of inspecting, cleaning, transforming, and interpreting data to extract
+                    meaningful insights and support decision-making. It involves various techniques, including
+                    statistical analysis, data visualization, and machine learning. Analysts use programming languages
+                    like Python (with libraries such as Pandas, NumPy, and Matplotlib) and SQL for querying databases.
+                    Data visualization tools like Power BI and Tableau help in presenting data effectively. The process
+                    typically includes data collection, preprocessing, exploratory data analysis (EDA), and modeling to
+                    identify patterns, trends, and correlations. Data analysis is widely used in business, healthcare,
+                    finance, and various industries to drive data-driven decisions and improve efficiency</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="service-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_m4QXtZ5vdQsw8rymqcbbbgctaoRu_YvkQ&s"
+                    alt="AI & ML Products">
+            </div>
+            <div class="service-content">
+                <h3 class="typing-text">AI & ML Products</h3>
+                <p>AI and ML products leverage artificial intelligence and machine learning algorithms to automate
+                    tasks, analyze data, and enhance decision-making. These products range from predictive analytics and
+                    recommendation systems to chatbots and computer vision applications. Machine learning models,
+                    trained on large datasets, enable AI-driven solutions in industries like healthcare, finance,
+                    e-commerce, and autonomous systems. Technologies such as Python, TensorFlow, PyTorch, and
+                    Scikit-learn are commonly used for model development, while cloud platforms like AWS, Azure, and
+                    Google Cloud facilitate deployment. AI-powered products continuously learn and improve, providing
+                    smarter insights, personalized experiences, and automation to optimize business processes and
+                    enhance user engagement.</p>
+            </div>
+        </div>
+
+        <div class="service reverse">
+            <div class="service-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSokrhKRkQiohZB_W6EjPdkcD-RlPbI92SRMaXwkHwCvrqYgpzAe-uph2A9wLl9S02V31E&usqp=CAU"
+                    alt="AI & ML Products">
+            </div>
+            <div class="service-content">
+                <h3 class="typing-text">SEO</h3>
+                <p>SEO optimization leverages advanced strategies and techniques to improve website visibility, increase
+                    organic traffic, and enhance search engine rankings. These services range from keyword research and
+                    on-page optimization to technical SEO, backlink building, and content marketing. Data-driven SEO
+                    solutions help businesses across industries like e-commerce, healthcare, and finance achieve higher
+                    rankings on search engines like Google and Bing. Cutting-edge tools such as Google Analytics,
+                    SEMrush, Ahrefs, and Search Console are used for performance tracking and optimization. With
+                    continuous improvements in algorithms, SEO strategies evolve to ensure better search visibility,
+                    improved user experience, and increased conversions for businesses.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="process-section typing-text">
+        <h2 class="section-title">Our Project Process</h2>
+
+        <div class="process">
+            <div class="step animate">Requirement Analysis</div>
+            <div class="step animate">Planning & Design</div>
+            <div class="step animate">Development & Coding</div>
+            <div class="step animate">Testing & Debugging</div>
+            <div class="step animate">Deployment & Launch</div>
+            <div class="step animate">Support & Maintenance</div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Info Section -->
+                <div class="footer-section info">
+                    <h3>Switch page</h3>
+                    <ul>
+                        <a href="{{ url_for('home') }}">Home</a>
+                        <a href="{{ url_for('about') }}">About</a>
+                        <a href="{{ url_for('service') }}">Services</a>
+                        <a href="{{ url_for('contact') }}">Contact</a>
+                    </ul>
+                </div>
+
+                <div class="footer-section info">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Mobile Apps</li>
+                        <li>Data Science</li>
+                        <li>AI Solutions</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section info">
+                    <h3>Team</h3>
+                    <ul>
+                        <li>Baiju Yadav - <strong>Co-CEO</strong></li>
+                        <li>Aditi - <strong>Co-CEO</strong></li>
+                        <li>Pradip Tiwari - <strong>UX/UI Designer</strong> </li>
+                        <li>Kush Singh - <strong>Lead Developer</strong></li>
+                    </ul>
+                </div>
+
+                <!-- Services Section -->
+
+
+                <!-- Social Media -->
+                <div class="footer-section social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-stack-overflow"></i>
+                    </div>
+                </div>
+
+                <!-- Subscription Section -->
+                <div class="footer-section subscribe">
+                    <h3>Subscribe</h3>
+                    <p>Get the latest updates and offers.</p>
+                    <form>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 All Rights Reserved | IndianWizard</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+    <script src="../static/js/service.js"></script>
+
+
+
+
+</body>

@@ -277,7 +277,7 @@ nav {
 
 @media (max-width: 768px) {
     .ourServices h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -367,7 +367,7 @@ body {
 @media (max-width: 768px) {
     .step {
         width: 90%;
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 20px;
     }
 }

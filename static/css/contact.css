@@ -350,9 +350,10 @@ nav {
 }
 
 .contact_box i{
+    color:#55DD1A;
     padding: 10px;
     border-radius: 50%;
-    background-color: #55DD1A;
+    background-color:grey ;
     color: white;
 }
 

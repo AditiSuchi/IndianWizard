@@ -246,6 +246,7 @@ nav {
 
 .first_hero h2 {
     font-size: 25px;
+    color:#55DD1A;
 }
 
 .image_div {
@@ -351,7 +352,7 @@ nav {
 .contact_box i{
     padding: 10px;
     border-radius: 50%;
-    background-color: #565756;
+    background-color: #55DD1A;
     color: white;
 }
 
